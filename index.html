@@ -1,14 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lost Earth — Join Server</title>
-  <meta http-equiv="refresh" content="0; url=minecraft://?addExternalServer=Lost Earth|theo.hidencloud.com:24658">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: url('https://i.imgur.com/XtYx6gJ.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px #000;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+      text-shadow: 1px 1px 3px #000;
+    }
+    .join-button {
+      padding: 20px 40px;
+      font-size: 1.5em;
+      background: #2ecc71;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: transform 0.2s, background 0.2s;
+      text-decoration: none;
+      color: white;
+    }
+    .join-button:hover {
+      background: #27ae60;
+      transform: scale(1.05);
+    }
+  </style>
   <script>
+    // Redirect instantly
     window.location.href = "minecraft://?addExternalServer=Lost Earth|theo.hidencloud.com:24658";
   </script>
 </head>
 <body>
-  <p>If nothing happens, <a href="minecraft://?addExternalServer=Lost Earth|theo.hidencloud.com:24658">tap here to open Minecraft</a>.</p>
+  <h1>Lost Earth</h1>
+  <p>Tap the button below to join our Minecraft server instantly!</p>
+  <a class="join-button" href="minecraft://?addExternalServer=Lost Earth|theo.hidencloud.com:24658">Join Now</a>
+  <p style="margin-top: 20px; font-size: 0.9em;">If nothing happens automatically, tap the button above.</p>
 </body>
 </html>
